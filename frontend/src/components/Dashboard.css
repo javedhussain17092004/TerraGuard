@@ -1,0 +1,39 @@
+.map-container{
+    margin-top: 5rem !important;
+    margin-bottom: 3rem !important;
+}
+
+.map{
+    margin: auto;
+    height: 25rem;
+    width: 50rem;
+    margin-top: 5rem !important;
+    margin-bottom: 3rem;
+}
+
+table {
+    border-collapse: collapse;  
+    width: 60%;                  
+    margin: 20px auto;          
+}
+th, td {
+    border: 1px solid  #f4f4f4;     
+    padding: 8px 12px;           
+    text-align: center;         
+}
+th {
+    border: 1px solid  #f4f4f4;  
+    background-color: #f4f4f4;
+    color: black;   
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9; 
+    color: black;  
+}
+
+.table-container{
+    margin-left: 10rem;
+    height: 25rem;
+    width: 80%;
+    overflow-y: auto;
+}

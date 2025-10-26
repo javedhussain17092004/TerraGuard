@@ -1,0 +1,15 @@
+.profile-container{
+    position: relative;
+    top: 5rem;
+    height: 30rem;
+    width: 40rem;
+    background-color: black;
+    margin: auto;
+    box-shadow: 2px 2px 2px rgb(49, 49, 48);
+    text-align: start;
+    padding: 2rem;
+    color: white;
+}
+.input-field{
+    width: 20rem !important;
+}
