@@ -4,6 +4,7 @@ const dotenv=require("dotenv");
 const authRoute=require("./routes/routes.js");
 const { default: mongoose } = require("mongoose");
 const runDisasterJob=require("./cron/disasterJob.js");
+const path = require("path");
 
 const app=express();
 const port=process.env.PORT || 8080;
